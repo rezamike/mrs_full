@@ -3,14 +3,39 @@
 }
 
 .header {
-  background-color: black;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: whitesmoke;
+}
+
+.pageBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 8vh;
+  margin-bottom: 2vh;
+}
+
+.pageBottom a {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.pageBottom a:hover {
+  color: #998877;
+  cursor: pointer;
+  text-shadow: 
+  1px 0px 1px #ccc, 0px 1px 1px #eee, 
+  2px 1px 1px #ccc, 1px 2px 1px #eee,
+  3px 2px 1px #ccc, 2px 3px 1px #eee,
+  4px 3px 1px #ccc, 3px 4px 1px #eee,
+  5px 4px 1px #ccc, 4px 5px 1px #eee,
+  6px 5px 1px #ccc, 5px 6px 1px #eee,
+  7px 6px 1px #ccc;
 }
 
 .image {
@@ -20,15 +45,39 @@
   align-items: center;
   height: -webkit-fill-available; 
   border: none;
-  height: 6em;
+  height: 8em;
   transition-duration: 0.4s;
   text-decoration: none;
   text-align: center;
   filter: invert(1);
 }
-.header:hover ~ .image {
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  height: -webkit-fill-available; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+  width: 20%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: inherit;
+  font-size: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.button:hover {
   background-color: slategray!important;
-  background-image: none;
   color: #998877;
   cursor: pointer;
   text-shadow: 

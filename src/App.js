@@ -4,13 +4,13 @@ import logo from './assets/mrs full.png';
 
 const styles = {
   sub: {
-    fontSize: ".5em",
+    fontSize: ".8em",
     height: 15
   },
   body: {
     fontSize: "1em",
     width: "75%",
-    marginTop: "6%"
+    marginTop: "4%"
   }
 };
 
@@ -31,6 +31,10 @@ const App = () => {
         <img className="image" alt="mrs" src={logo} />
         <p style={styles.sub}>{desc_arr[count]}</p>
         <p style={styles.body}>director / producer</p>
+        <a href="mailto:michael.sanaiha@gmail.com?subject=MRS Project Inquiry" className="button">CONTACT ME</a>
+      </div>
+      <div className="pageBottom">
+        <a style={{ textDecoration: 'none', color: 'slategray' }} target="_blank" rel="noopener noreferrer" href="https://www.divmichaeldiv.com">web engineer</a>
       </div>
     </div>
   );
