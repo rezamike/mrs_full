@@ -1,0 +1,42 @@
+.main {
+  text-align: center;
+}
+
+.header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+}
+
+.image {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -webkit-fill-available; 
+  border: none;
+  height: 6em;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  text-align: center;
+  filter: invert(1);
+}
+.header:hover ~ .image {
+  background-color: slategray!important;
+  background-image: none;
+  color: #998877;
+  cursor: pointer;
+  text-shadow: 
+  1px 0px 1px #ccc, 0px 1px 1px #eee, 
+  2px 1px 1px #ccc, 1px 2px 1px #eee,
+  3px 2px 1px #ccc, 2px 3px 1px #eee,
+  4px 3px 1px #ccc, 3px 4px 1px #eee,
+  5px 4px 1px #ccc, 4px 5px 1px #eee,
+  6px 5px 1px #ccc, 5px 6px 1px #eee,
+  7px 6px 1px #ccc;
+}
