@@ -28,14 +28,7 @@
 .pageBottom a:hover {
   color: #998877;
   cursor: pointer;
-  text-shadow: 
-  1px 0px 1px #ccc, 0px 1px 1px #eee, 
-  2px 1px 1px #ccc, 1px 2px 1px #eee,
-  3px 2px 1px #ccc, 2px 3px 1px #eee,
-  4px 3px 1px #ccc, 3px 4px 1px #eee,
-  5px 4px 1px #ccc, 4px 5px 1px #eee,
-  6px 5px 1px #ccc, 5px 6px 1px #eee,
-  7px 6px 1px #ccc;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
 }
 
 .image {
@@ -43,7 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: -webkit-fill-available; 
+  height: -webkit-fill-available;
   border: none;
   height: 8em;
   transition-duration: 0.4s;
@@ -57,7 +50,7 @@
   justify-content: center;
   align-items: center;
   background: transparent;
-  height: -webkit-fill-available; 
+  height: -webkit-fill-available;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,12 +73,14 @@
   background-color: slategray!important;
   color: #998877;
   cursor: pointer;
-  text-shadow: 
-  1px 0px 1px #ccc, 0px 1px 1px #eee, 
-  2px 1px 1px #ccc, 1px 2px 1px #eee,
-  3px 2px 1px #ccc, 2px 3px 1px #eee,
-  4px 3px 1px #ccc, 3px 4px 1px #eee,
-  5px 4px 1px #ccc, 4px 5px 1px #eee,
-  6px 5px 1px #ccc, 5px 6px 1px #eee,
-  7px 6px 1px #ccc;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    height: 100%;
+    width: 50%;
+    padding: 5%;
+    margin: 10% auto;
+  }
 }
